@@ -45,7 +45,7 @@ def getDistanceBetweenPointsNew(latitude1, longitude1, latitude2, longitude2, un
     if unit == 'meters':
         return (distance * 1.609344)*1000
 
-def apart_cost_value(dict, adress):
+def apart_cost_value(self, dict, adress):
 
   model = pickle.load(open("model", "rb"))
 
